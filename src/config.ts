@@ -5,75 +5,152 @@ export const siteConfig = {
   accentColor: "#459814ff",
   social: {
     email: "jenny.soj.lee@gmail.com",
-    linkedin: "https://linkedin.com/in/jenny-soj-lee",
+    linkedin: "https://www.linkedin.com/in/jenny-sojung-lee/",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores \
+    nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi\
+    facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, \
+    nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur \
+    reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Auxiliary and Safety System PCB",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Designed the schematic and PCB layout for the auxiliary and safety system \
+        of a fully electric vehicle using the ATmega2560 IC; contributed to critical \
+        functionalities required in the vehicle’s entry in the Shell Eco Marathon. \
+        Integrated buck converters for safe, reliable 48V to 12V and 48V to 5V conversion; \
+        implemented SPI flash capabilities for firmware upload.",
+      link: "https://www.cornellelectricvehicles.org/",
+      skills: ["Altium PCB Designer", "LTspice", "Functional Verification"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Energy-Efficient Route Planning for Autonomous EV's",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Built and optimized a linear programming model using CVXPY to minimize\
+         distance and energy use for electric vehicles by incorporating path \
+         length and elevation constraints to approximate battery depletion. \
+         Developed a Python application for EV route planning that accepts \
+         user-defined source and destination coordinates, leveraging OpenStreetMap \
+         data and the Open-Meteo Elevation API to find the optimal path.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["CVXPY", "OSMnx", "Data Visualization"],
     },
     {
-      name: "ExtensionKit",
+      name: "TinyRV1 Processor",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Designed and implemented a single-cycle processor microarchitecture \
+        supporting the TinyRV1 ISA--a RISC-V based ISA-- including datapath, \
+        control unit, arithmetic components, and accumulate accelerator in Verilog. \
+        Developed and tested processor components (ALU, multiplexors, register files) and verified \
+        functionality through directed test cases and FPGA prototyping on Intel \
+        Quartus, ensuring correct execution of core instructions (e.g., ADDI, LW, SW, JAL).",
+      skills: ["Verilog", "FPGA Programming", "Verification"],
+    },
+    {
+      name: "No FRDM for the Fish",
+      description:
+        "Developed an interactive fishing simulation game using the NXP FRDM-KL25Z\
+        board's 3-axis accelerometer and push-buttons as primary inputs, interfacing\
+         with a multi-page Python Tkinter GUI via UART serial communication for \
+         real-time game mechanic control based on board movement",
+      link: "https://pages.github.coecis.cornell.edu/ece3140-sp2025/sl2854/",
+      skills: ["Python", "C/C++", "UART Serial Communication"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Cadence Design Systems",
+      title: "Digital ASIC Design Engineer Intern",
+      dateRange: "May 2025 - Aug 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Execute RTL-to-GDSII digital design flow for a working kitchen sous vide \
+        controller chip and the Tensilica HiFi3 Audio Engine using Cadence Genus \
+        and Innovus tools on SkyWater 130nm process technology",
+        "Optimize PPA to achieve an approx. 20% reduction in power consumption \
+        while maintaining design functionality and meeting timing constraints",
+        "Analyze timing paths and reports at each step of implementation to refine \
+        constraints and iteratively improve physical design",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Cornell Electric Vehicles",
+      title: "PCB Design Engineer",
+      dateRange: "Sep 2023 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Design, test, and implement printed circuit boards in Altium Designer for \
+        autonomous electric vehicle subsystems (i.e., mechanical control, battery \
+        management, safety protocols, real-time data acquisition) to enhance vehicle \
+        performance, reliability, and safety",
+        "Collaborate with 75+ team members of varying disciplines to create \
+        hyper-efficient, autonomous electric vehicles",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Cornell University College of Engineering",
+      title: "ECE 4800/5280 Undergraduate Teaching Assistant",
+      dateRange: "Aug 2025 - Present",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Course: Optimal System Analysis and Design. Supporting instruction on a \
+        graduate-level course covering optimization theory and \
+        algorithms, including linear programming, convex programming, duality",
+        "Hold office hours and grade assignments for undergraduate- and graduate-level students",
+      ],
+    },
+    {
+      company: "Cornell University Symbiotic Engineering and Analysis Lab",
+      title: "Undergraduate Research Assistant",
+      dateRange: "Feb 2025 - Present",
+      bullets: [
+        "Conducted research under the guidance of Dr. Maha Haji, developing a data\
+         acquisition system for 9 sensors to analyze ultrafiltration performance \
+         in high-pressure ocean environments",
+        "Designed and engineered 24V circuits to monitor pressure, flow rate, and \
+        electrical conductivity of water, ensuring seamless integration with microcontrollers\
+         for real-time data processing",
+      ],
+    },
+    {
+      company: "Cornell University College of Engineering",
+      title: "ECE 2100 Undergraduate Teaching Assistant",
+      dateRange: "Aug 2024 - Dec 2024",
+      bullets: [
+        "Course: Introduction to Circuits. Covers fundamental concepts \
+        such as current, voltage, and power; analyzing passive and active circuit components\
+        and applying mathematical tools like Laplace transforms, with hands-on lab sessions",
+        "Supervise and lead labs, discussion sessions, and office hours, providing \
+        hands-on guidance to 90+ students as they construct and debug fundamental circuits \
+        using power supplies, signal generators, oscilloscopes, and other simulation/\
+        testing equipment and software",
+      ],
+    },
+    {
+      company: "MIT Lincoln Laboratory",
+      title: "BWSI Microelectronics Teaching Assistant",
+      dateRange: "Jun 2024 - Aug 2024",
+      bullets: [
+        "Course: Introduction to Circuits. Covers fundamental concepts \
+        such as current, voltage, and power; analyzing passive and active circuit components\
+        and applying mathematical tools like Laplace transforms, with hands-on lab sessions",
+        "Supervise and lead labs, discussion sessions, and office hours, providing \
+        hands-on guidance to 90+ students as they construct and debug fundamental circuits \
+        using power supplies, signal generators, oscilloscopes, and other simulation/\
+        testing equipment and software",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Cornell University",
+      degree: "Bachelor of Science in ECE and CS",
+      dateRange: "Aug 2023 - Dec 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Relevant Coursework: Computer Architecture, Digital Logic & Computer \
+        Organization, Signals & Systems, Microelectronics, Circuits, \
+        Object-Oriented Programming, Functional Programming, Data Structures, Analysis of Algorithms, \
+        Optimal System Design & Analysis, Machine Learning, Embedded Systems, Foundations of Robotics"
       ],
     },
     {
