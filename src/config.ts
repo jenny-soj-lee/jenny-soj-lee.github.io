@@ -33,7 +33,6 @@ export const siteConfig = {
          Developed a Python application for EV route planning that accepts \
          user-defined source and destination coordinates, leveraging OpenStreetMap \
          data and the Open-Meteo Elevation API to find the optimal path.",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["CVXPY", "OSMnx", "Data Visualization"],
     },
     {
