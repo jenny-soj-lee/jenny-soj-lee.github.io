@@ -10,7 +10,7 @@ export const siteConfig = {
   aboutMe:
     "Hi, I'm Jenny, a rising junior at Cornell University passionate about \
     digital ASIC design, reconfigurable architecture, and hardware-software co-design.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Python", "Verilog", "SystemVerilog", "Tcl", "Cadence Digital Design & Implementation (DDI)", "Linux", "Git"],
 
   projects: [
     {
