@@ -8,12 +8,10 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/jenny-sojung-lee/",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores \
-    nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi\
-    facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, \
-    nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur \
-    reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Hi, I'm Jenny, a rising junior at Cornell University passionate about \
+    digital ASIC design, reconfigurable architecture, and hardware-software co-design.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+
   projects: [
     {
       name: "Auxiliary and Safety System PCB",
@@ -68,10 +66,10 @@ export const siteConfig = {
       bullets: [
         "Execute RTL-to-GDSII digital design flow for a working kitchen sous vide \
         controller chip and the Tensilica HiFi3 Audio Engine using Cadence Genus \
-        and Innovus tools on SkyWater 130nm process technology",
+        and Innovus tools on SkyWater 130 nm and GPDK 45 nm process technology",
         "Optimize PPA to achieve an approx. 20% reduction in power consumption \
         while maintaining design functionality and meeting timing constraints",
-        "Analyze timing paths and reports at each step of implementation to refine \
+        "Analyze timing paths and reports at each stage of implementation to refine \
         constraints and iteratively improve physical design",
       ],
     },
@@ -131,13 +129,12 @@ export const siteConfig = {
       title: "BWSI Microelectronics Teaching Assistant",
       dateRange: "Jun 2024 - Aug 2024",
       bullets: [
-        "Course: Introduction to Circuits. Covers fundamental concepts \
-        such as current, voltage, and power; analyzing passive and active circuit components\
-        and applying mathematical tools like Laplace transforms, with hands-on lab sessions",
-        "Supervise and lead labs, discussion sessions, and office hours, providing \
-        hands-on guidance to 90+ students as they construct and debug fundamental circuits \
-        using power supplies, signal generators, oscilloscopes, and other simulation/\
-        testing equipment and software",
+        "Collaborate with Dr. Beijia Zhang to lead instruction on microelectronics theory \
+        and lab sessions for rising high school seniors in a highly selective summer program \
+        sponsored by MIT Lincoln Laboratory",
+        "Developed and delivered a PCB design lecture; guided 40+ students in debugging \
+        projects involving with Arduino, Raspberry Pi, and ESP32 microcontroller boards as they\
+        integrated AI-based computer vision features with Ultralytics YOLO models",
       ],
     },
   ],
@@ -151,16 +148,6 @@ export const siteConfig = {
         Organization, Signals & Systems, Microelectronics, Circuits, \
         Object-Oriented Programming, Functional Programming, Data Structures, Analysis of Algorithms, \
         Optimal System Design & Analysis, Machine Learning, Embedded Systems, Foundations of Robotics"
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
   ],
