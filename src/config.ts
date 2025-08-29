@@ -143,8 +143,8 @@ export const siteConfig = {
       degree: "Bachelor of Science in ECE and CS",
       dateRange: "Aug 2023 - Dec 2026",
       achievements: [
-        "Relevant Coursework: Computer Architecture, Digital Logic & Computer \
-        Organization, Signals & Systems, Microelectronics, Circuits, \
+        "Relevant Coursework: Computer Architecture, High-Level Digital Design Automation,\
+         Digital Logic & Computer Organization, Signals & Systems, Microelectronics, Circuits, \
         Object-Oriented Programming, Functional Programming, Data Structures, Analysis of Algorithms, \
         Optimal System Design & Analysis, Machine Learning, Embedded Systems, Foundations of Robotics"
       ],
