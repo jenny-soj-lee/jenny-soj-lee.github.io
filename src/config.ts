@@ -73,6 +73,18 @@ export const siteConfig = {
       ],
     },
     {
+      company: "Zhang Research Group",
+      title: "Undergraduate Research Assistant",
+      dateRange: "Sep 2025 - Present",
+      bullets: [
+        "Assisting in research to extend TinyTPU, an open-source research project\
+        based on Google's Tensor Processing Unit to acccelerate machine learning\
+        applications",
+        "Working toward achieving programmability for the vector processing unit\
+        using SystemVerilog and Vivado HLS tools"
+      ],
+    },
+    {
       company: "Cornell Electric Vehicles",
       title: "PCB Design Engineer",
       dateRange: "Sep 2023 - Present",
