@@ -63,13 +63,12 @@ export const siteConfig = {
       title: "Digital ASIC Design Engineer Intern",
       dateRange: "May 2025 - Aug 2025",
       bullets: [
-        "Execute RTL-to-GDSII digital design flow for a working kitchen sous vide \
-        controller chip and the Tensilica HiFi3 Audio Engine using Cadence Genus \
-        and Innovus tools on SkyWater 130 nm and GPDK 45 nm process technology",
-        "Optimize PPA to achieve an approx. 20% reduction in power consumption \
-        while maintaining design functionality and meeting timing constraints",
-        "Analyze timing paths and reports at each stage of implementation to refine \
-        constraints and iteratively improve physical design",
+        "Executed RTL-to-GDSII digital design flow for a working kitchen sous \
+        vide controller chip and the Tensilica HiFi3 Audio Engine using Cadence\
+         Genus and Innovus tools on SkyWater 130 nm and GPDK 45 nm process technology",
+        "Optimized power, performance, and area (PPA) by analyzing synthesis \
+        reports and timing paths to reduce power consumption and area while \
+        maintaining design functionality and meeting timing constraints",
       ],
     },
     {
@@ -77,11 +76,12 @@ export const siteConfig = {
       title: "Undergraduate Research Assistant",
       dateRange: "Sep 2025 - Present",
       bullets: [
-        "Assisting in research to extend TinyTPU, an open-source research project\
-        based on Google's Tensor Processing Unit to acccelerate machine learning\
-        applications",
-        "Working toward achieving programmability for the vector processing unit\
-        using SystemVerilog and Vivado HLS tools"
+        "Conducting research under Dr. Zhiru Zhang to extend TinyTPU, a compact\
+         tensor processing unit inspired by Google’s TPU v1/v2, developing new \
+         architectures to accelerate machine learning applications.",
+        "Modifying and enhancing the integrated vector processing unit in \
+        SystemVerilog and Vivado HLS to achieve full programmability, improving\
+         adaptability for a wide range of ML workloads."
       ],
     },
     {
