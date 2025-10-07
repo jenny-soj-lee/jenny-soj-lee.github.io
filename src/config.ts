@@ -109,13 +109,13 @@ export const siteConfig = {
         "Course: Optimal System Analysis and Design. Supporting instruction on a \
         graduate-level course covering optimization theory and \
         algorithms, including linear programming, convex programming, duality",
-        "Hold office hours and grade assignments for undergraduate- and graduate-level students",
+        "Grade assignments and exams for undergraduate- and graduate-level students",
       ],
     },
     {
       company: "Cornell University Symbiotic Engineering and Analysis Lab",
       title: "Undergraduate Research Assistant",
-      dateRange: "Feb 2025 - Present",
+      dateRange: "Feb 2025 - Sep 2025",
       bullets: [
         "Conducted research under the guidance of Dr. Maha Haji, developing a data\
          acquisition system for 9 sensors to analyze ultrafiltration performance \
