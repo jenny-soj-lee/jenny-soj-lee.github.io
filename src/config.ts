@@ -19,10 +19,22 @@ export const siteConfig = {
         "Designed the schematic and PCB layout for the auxiliary and safety system \
         of a fully electric vehicle using the ATmega2560 IC; contributed to critical \
         functionalities required in the vehicle’s entry in the Shell Eco Marathon. \
-        Integrated buck converters for safe, reliable 48V to 12V and 48V to 5V conversion; \
-        implemented SPI flash capabilities for firmware upload.",
+        Designed integrated buck converters for safe, reliable 48V-to-12V and \
+        48V-to-5V power conversion; implemented SPI flash for firmware updates; \
+        and added a digital isolator circuit to ensure robust SPI bus communication.",
       link: "https://www.cornellelectricvehicles.org/",
       skills: ["Altium PCB Designer", "LTspice", "Functional Verification"],
+    },
+    {
+      name: "TinyRV2 Processor",
+      description:
+        "Designed and implemented a fully bypassed, 5-stage pipelined processor microarchitecture \
+        in Verilog supporting the TinyRV2 (RISC-V–based) ISA, including datapath, \
+        control unit, and a variable-latency multiplier.\
+        Developed comprehensive test infrastructure in PyMTL3 to verify processor execution, \
+        creating directed and randomized testbenches, debugging pipeline hazards, and \
+        validating functional correctness across the entire ISA.",
+      skills: ["Verilog", "Python", "Verification"],
     },
     {
       name: "Energy-Efficient Route Planning for Autonomous EV's",
@@ -34,17 +46,6 @@ export const siteConfig = {
          user-defined source and destination coordinates, leveraging OpenStreetMap \
          data and the Open-Meteo Elevation API to find the optimal path.",
       skills: ["CVXPY", "OSMnx", "Data Visualization"],
-    },
-    {
-      name: "TinyRV1 Processor",
-      description:
-        "Designed and implemented a single-cycle processor microarchitecture \
-        supporting the TinyRV1 ISA--a RISC-V based ISA-- including datapath, \
-        control unit, arithmetic components, and accumulate accelerator in Verilog. \
-        Developed and tested processor components (ALU, multiplexors, register files) and verified \
-        functionality through directed test cases and FPGA prototyping on Intel \
-        Quartus, ensuring correct execution of core instructions (e.g., ADDI, LW, SW, JAL).",
-      skills: ["Verilog", "FPGA Programming", "Verification"],
     },
     {
       name: "No FRDM for the Fish",
@@ -76,12 +77,15 @@ export const siteConfig = {
       title: "Undergraduate Research Assistant",
       dateRange: "Sep 2025 - Present",
       bullets: [
-        "Conducting research under Dr. Zhiru Zhang to extend TinyTPU, a compact\
-         tensor processing unit inspired by Google’s TPU v1/v2, developing new \
-         architectures to accelerate machine learning applications.",
+        "Conducting research under Dr. Zhiru Zhang to extend TinyTPU, a compact \
+        tensor processing unit inspired by Google’s TPU v1/v2, developing new \
+        architectures to accelerate machine learning applications.",
         "Modifying and enhancing the integrated vector processing unit in \
-        SystemVerilog and Vivado HLS to achieve full programmability, improving\
-         adaptability for a wide range of ML workloads."
+        SystemVerilog for neural network inference, including bias addition, \
+        Leaky ReLU activation, and gradient backpropagation units.",
+        "Developing PyMTL3 testbenches to validate fixed-point arithmetic, \
+        pipeline control, and end-to-end functional correctness, ensuring seamless \
+        communication with the systolic array, unified buffer, and memory system."
       ],
     },
     {
