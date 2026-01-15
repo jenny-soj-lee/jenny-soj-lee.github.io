@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Jenny Lee",
   title: "Hardware Design Engineer",
   description: "Portfolio website of Jenny Lee",
-  accentColor: "#459814ff",
+  accentColor: "#148793ff",
   social: {
     email: "jenny.soj.lee@gmail.com",
     linkedin: "https://www.linkedin.com/in/jenny-sojung-lee/",
