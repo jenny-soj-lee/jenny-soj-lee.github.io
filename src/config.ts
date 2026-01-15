@@ -15,45 +15,50 @@ export const siteConfig = {
   projects: [
     {
       name: "Auxiliary and Safety System PCB",
-      description:
-        "Designed the schematic and PCB layout for the auxiliary and safety system \
-        of a fully electric vehicle using the ATmega2560 IC; contributed to critical \
-        functionalities required in the vehicle’s entry in the Shell Eco Marathon. \
-        Designed integrated buck converters for safe, reliable 48V-to-12V and \
-        48V-to-5V power conversion; implemented SPI flash for firmware updates; \
-        and added a digital isolator circuit to ensure robust SPI bus communication.",
+      bullets: [
+        "Designed the schematic and PCB layout for the vehicle’s auxiliary and \
+        safety systems using an ATmega2560 IC, supporting critical functionality \
+        for Shell Eco-marathon competition entry.",
+        "Integrated buck converters for safe and reliable 48V-to-12V and 48V-to-5V \
+        power conversion, SPI flash for in-field firmware updates, and digital \
+        isolation to ensure robust SPI bus communication."],
       link: "https://www.cornellelectricvehicles.org/",
       skills: ["Altium PCB Designer", "LTspice", "Functional Verification"],
     },
     {
-      name: "TinyRV2 Processor",
-      description:
-        "Designed and implemented a fully bypassed, 5-stage pipelined processor microarchitecture \
-        in Verilog supporting the TinyRV2 (RISC-V–based) ISA, including datapath, \
-        control unit, and a variable-latency multiplier.\
-        Developed comprehensive test infrastructure in PyMTL3 to verify processor execution, \
-        creating directed and randomized testbenches, debugging pipeline hazards, and \
-        validating functional correctness across the entire ISA.",
+      name: "TinyRV2 Processor & Multicore System",
+      bullets: [
+        "Designed and implemented a fully bypassed, five-stage pipelined TinyRV2 \
+        (RISC-V–based) processor in Verilog, including datapath, control logic, \
+        and a variable-latency multiplier, then composed the core into complete \
+        single-core and quad-core systems.",
+        "Built a multicore architecture with four processors, private instruction\
+         caches, a shared banked data cache, and a custom ring interconnect, \
+         implementing routing, arbitration, and memory-network adapters to support \
+         concurrent memory access.",
+        "Developed extensive PyMTL3-based verification infrastructure, including \
+        directed and randomized tests for pipeline hazards, cache/memory interactions,\
+         and multicore execution correctness across the ISA."],
       skills: ["Verilog", "Python", "Verification"],
     },
     {
       name: "Energy-Efficient Route Planning for Autonomous EV's",
-      description:
+      bullets: [
         "Built and optimized a linear programming model using CVXPY to minimize\
          distance and energy use for electric vehicles by incorporating path \
-         length and elevation constraints to approximate battery depletion. \
-         Developed a Python application for EV route planning that accepts \
+         length and elevation constraints to approximate battery depletion.",
+        "Developed a Python application for EV route planning that accepts \
          user-defined source and destination coordinates, leveraging OpenStreetMap \
-         data and the Open-Meteo Elevation API to find the optimal path.",
+         data and the Open-Meteo Elevation API to find the optimal path."],
       skills: ["CVXPY", "OSMnx", "Data Visualization"],
     },
     {
       name: "No FRDM for the Fish",
-      description:
+      bullets: [
         "Developed an interactive fishing simulation game using the NXP FRDM-KL25Z\
         board's 3-axis accelerometer and push-buttons as primary inputs, interfacing\
          with a multi-page Python Tkinter GUI via UART serial communication for \
-         real-time game mechanic control based on board movement",
+         real-time game mechanic control based on board movement"],
       link: "https://pages.github.coecis.cornell.edu/ece3140-sp2025/sl2854/",
       skills: ["Python", "C/C++", "UART Serial Communication"],
     },
@@ -88,6 +93,7 @@ export const siteConfig = {
         into accelerator-specific instructions, enabling efficient host–device \
         coordination across the full TPU stack."
       ],
+      link: "https://github.com/sunwookim028/CornellTPU",
     },
     {
       company: "Cornell Electric Vehicles",
@@ -125,6 +131,7 @@ export const siteConfig = {
         electrical conductivity of water, ensuring seamless integration with microcontrollers\
          for real-time data processing",
       ],
+      link: "https://sea.mae.cornell.edu/",
     },
     {
       company: "Cornell University College of Engineering",
@@ -139,6 +146,7 @@ export const siteConfig = {
         using power supplies, signal generators, oscilloscopes, and other simulation/\
         testing equipment and software",
       ],
+      link: "https://ocw.ece.cornell.edu/ece-2100-course-details/",
     },
     {
       company: "MIT Lincoln Laboratory",
@@ -152,6 +160,7 @@ export const siteConfig = {
         projects involving with Arduino, Raspberry Pi, and ESP32 microcontroller boards as they\
         integrated AI-based computer vision features with Ultralytics YOLO models",
       ],
+      link: "https://bwsi.mit.edu/bwsi-programs-2/microelectronics-and-hardware-development/",
     },
   ],
   education: [
