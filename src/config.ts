@@ -71,21 +71,22 @@ export const siteConfig = {
         reports and timing paths to reduce power consumption and area while \
         maintaining design functionality and meeting timing constraints",
       ],
+      link: "https://www.cadence.com/en_US/home.html",
     },
     {
       company: "Zhang Research Group",
       title: "Undergraduate Research Assistant",
       dateRange: "Sep 2025 - Present",
       bullets: [
-        "Conducting research advised by Dr. Zhiru Zhang to extend TinyTPU, a compact \
-        tensor processing unit inspired by Google’s TPU v1/v2, developing new \
-        architectures to accelerate machine learning applications.",
-        "Modifying and enhancing the integrated vector processing unit in \
-        SystemVerilog for neural network inference, including bias addition, \
-        Leaky ReLU activation, and gradient backpropagation units.",
-        "Developing Python testbenches to validate fixed-point arithmetic, \
-        pipeline control, and end-to-end functional correctness, ensuring seamless \
-        communication with the systolic array, unified buffer, and memory system."
+        "Conduct research under Dr. Zhiru Zhang on extending TinyTPU, a compact \
+        TPU-inspired accelerator, by exploring new microarchitectures to \
+        accelerate machine learning workloads.",
+        "Design and implement a vector processing unit in SystemVerilog for \
+        neural-network inference, including bias accumulation, Leaky ReLU activation, \
+        and gradient backpropagation support.",
+        "Develop a custom compiler interface that translates Python ML models \
+        into accelerator-specific instructions, enabling efficient host–device \
+        coordination across the full TPU stack."
       ],
     },
     {
