@@ -28,12 +28,12 @@ function loadAssists(callback: (assists: Assists) => any) {
   manager.onStart = function (url, itemsLoaded, itemsTotal) {
     console.log(
       "Started loading file: " +
-        url +
-        ".\nLoaded " +
-        itemsLoaded +
-        " of " +
-        itemsTotal +
-        " files."
+      url +
+      ".\nLoaded " +
+      itemsLoaded +
+      " of " +
+      itemsTotal +
+      " files."
     );
   };
 
@@ -53,18 +53,17 @@ function loadAssists(callback: (assists: Assists) => any) {
 
   manager.onProgress = function (url, itemsLoaded, itemsTotal) {
     if (!loadingItemsDOM || !loadingBarDOM) return;
-    (loadingBarDOM as HTMLElement).style.transform = `scaleX(${
-      itemsLoaded / itemsTotal
-    })`;
+    (loadingBarDOM as HTMLElement).style.transform = `scaleX(${itemsLoaded / itemsTotal
+      })`;
     loadingItemsDOM.textContent = `${itemsLoaded} of ${itemsTotal} File Loaded: ${url}`;
     console.log(
       "Loading file: " +
-        url +
-        ".\nLoaded " +
-        itemsLoaded +
-        " of " +
-        itemsTotal +
-        " files."
+      url +
+      ".\nLoaded " +
+      itemsLoaded +
+      " of " +
+      itemsTotal +
+      " files."
     );
   };
 
@@ -81,7 +80,7 @@ function loadAssists(callback: (assists: Assists) => any) {
 
   // Texture
   const textureLoader = new THREE.TextureLoader(manager);
-  textureLoader.load("/textures/bake-quality-5.jpg", (tex) => {
+  textureLoader.load("/textures/computa2.jpg", (tex) => {
     tex.flipY = false;
     tex.encoding = THREE.sRGBEncoding;
     assists.bakeTexture = tex;
@@ -123,7 +122,7 @@ function loadAssists(callback: (assists: Assists) => any) {
     assists.shadowPlaneMesh = gltf.scene.children.find(
       (m) => m.name === "ShadowPlane"
     );
- 
+
   });
 }
 

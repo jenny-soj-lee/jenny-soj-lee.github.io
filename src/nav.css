@@ -26,10 +26,10 @@ nav .btn {
   opacity: 0;
   pointer-events: none;
   padding: 8px 16px;
-  fill: #f6d4b1;
+  fill: #d4e9f1;
 }
 
-.menu-btn > .btn:first-child {
+.menu-btn>.btn:first-child {
   padding: 8px 24px;
   margin-right: 16px;
 }
@@ -44,8 +44,8 @@ html[data-scroll="true"] nav .btn {
 }
 
 .active .btn {
-  box-shadow: 6px 6px 0px rgba(246, 212, 177, 0.7);
-  background-color: #f6d4b1;
+  box-shadow: 6px 6px 0px rgba(212, 233, 241, 0.7);
+  background-color: #d4e9f1;
   color: #525252;
   fill: #525252;
   border-color: #525252;
@@ -54,16 +54,16 @@ html[data-scroll="true"] nav .btn {
 }
 
 .active .btn:hover {
-  box-shadow: 8px 8px 6px rgba(246, 212, 177, 0.5);
+  box-shadow: 8px 8px 6px rgba(212, 233, 241, 0.7);
 }
 
 .active .btn:active {
-  box-shadow: 4px 4px 0px rgba(246, 212, 177, 0.7);
+  box-shadow: 4px 4px 0px rgba(212, 233, 241, 0.7);
 }
 
 .menu-body {
   background-color: #525252;
-  color: #f6d4b1;
+  color: #d4e9f1;
   font-size: 2em;
   font-family: "public-pixel", monospace;
   text-decoration: none !important;

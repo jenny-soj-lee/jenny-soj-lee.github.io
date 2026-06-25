@@ -5,7 +5,7 @@ import { Assists } from "../loader";
 import { Change } from "../../terminal";
 import { mergeBufferGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 
-const textColor = "#f99021";
+const textColor = "#075e83";
 
 type FontInfo = {
   font: undefined | Font;
@@ -684,6 +684,7 @@ export default function ScreenTextEngine(
 
     const textureLoader = new THREE.TextureLoader();
     textureLoader.load(url, (tex) => {
+      tex.encoding = THREE.sRGBEncoding;
       tex.magFilter = THREE.NearestFilter;
       imageFrame.material = new THREE.MeshBasicMaterial({ map: tex });
     });
