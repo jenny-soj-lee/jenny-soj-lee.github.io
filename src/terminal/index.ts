@@ -112,6 +112,16 @@ export default function Terminal(screenTextEngine: {
           updateMaxScroll: false,
         });
         break;
+      case "Tab":
+        e.preventDefault();
+        const completed = bash.complete(textarea.value);
+        if (completed !== null) {
+          textarea.value = completed;
+          lastSelection = completed.length;
+          onInput();
+          textarea.setSelectionRange(lastSelection, lastSelection);
+        }
+        break;
     }
   });
 
