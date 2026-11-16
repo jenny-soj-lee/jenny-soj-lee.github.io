@@ -1,0 +1,136 @@
+.entry+.entry {
+  margin-top: var(--space-6);
+}
+
+.entry__logo {
+  display: block;
+  height: 34px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  object-position: left center;
+  margin-bottom: var(--space-3);
+}
+
+.entry__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.entry__role {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.entry__org {
+  font-weight: 400;
+  color: var(--ink-muted);
+}
+
+.entry__dates {
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.entry__bullets {
+  margin: var(--space-2) 0 0;
+  padding-left: 1.1rem;
+  color: var(--ink-muted);
+}
+
+.entry__bullets li {
+  margin-bottom: var(--space-1);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.card {
+  border: 1px solid var(--line);
+  padding: var(--space-4);
+  transition: border-color 160ms ease;
+}
+
+.card:hover {
+  border-color: var(--ink);
+}
+
+.card__title {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  margin: 0 0 var(--space-2);
+}
+
+.card__title a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.card__title a:hover {
+  border-bottom-color: var(--ink);
+}
+
+.card__blurb {
+  margin: 0 0 var(--space-3);
+  font-size: 0.95rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tag {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  background: var(--surface);
+  padding: 2px 8px;
+}
+
+/* ---- skill chips (squoval) ---- */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  list-style: none;
+  margin: var(--space-3) 0 0;
+  padding: 0;
+}
+
+.skill {
+  font-size: 0.8125rem;
+  line-height: 1;
+  padding: 7px 12px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 10px;
+}
+
+@supports (corner-shape: squircle) {
+  .skill {
+    corner-shape: squircle;
+    border-radius: 14px;
+  }
+}
+
+/* ---- photo gallery (interests) ---- */
+.gallery {
+  position: relative;
+  height: clamp(320px, 52vh, 520px);
+  margin-top: var(--space-4);
+  width: calc(100% + var(--gutter) * 2);
+  margin-left: calc(var(--gutter) * -1);
+}
