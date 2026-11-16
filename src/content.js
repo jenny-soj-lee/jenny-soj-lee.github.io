@@ -1,7 +1,7 @@
 export const profile = {
   // the flip charset in About.jsx is lowercase a-z
   headline: 'hi my name is jenny',
-  blurb: 'aspiring ASIC design engineer!',
+  blurb: 'senior @ Cornell University, aspiring ASIC design engineer!',
   linkedin: 'https://www.linkedin.com/in/jenny-sojung-lee',
   email: 'jenny.soj.lee@gmail.com',
 }
